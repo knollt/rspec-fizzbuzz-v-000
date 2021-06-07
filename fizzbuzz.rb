@@ -6,11 +6,11 @@ def fizzbuzz (num)
     return "FizzBuzz"
   end
 # We expect fizzbuzz(5) to return "Buzz"
-  if (num % 5 == 0)
+  elsif (num % 5 == 0)
     return "Buzz"
   end
 # We expect fizzbuzz(3) to return "Fizz"
-  if (num % 3 == 0)
+  elsif (num % 3 == 0)
     return "Fizz"
   end
 
